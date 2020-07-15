@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navigator{
+	
+	background-color: #3f3d56;
+	overflow: hidden;
+	
+}
+.logo{
+	float: left;
+	width: 10%;
+}
+
+
+.nav-link-ul  .nav-user-ul{
+	
+	width: 50%;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+.nav-link-item{
+	list-style-type: none;
+	float: left;
+	width: 5%;
+}
+
+.nav-user-item{
+	list-style-type: none;
+	float: right;
+	width: 7%;
+}
+
+a{
+    /*将a转换成块元素*/
+    display: block;
+    /*为a指定宽度*/
+	width: 100%;
+	/*设置文字居中*/
+	text-align: center;
+    /*给a设置上下内边距*/
+    padding: 5px 0;
+    /*给a去除下划线*/
+    text-decoration: none;
+    /*设置字体颜色*/
+    color: #b1afec;
+    /*加粗*/
+    font-weight: bold;
+}
